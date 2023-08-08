@@ -36,7 +36,9 @@ const About_contact = () => {
                         <NavLink to='tel:+998977260528'>
                             ☎️ +998 97 726 05 28
                         </NavLink>
-                        <NavLink to="https://t.me/Belial_04"><i className="fa-brands fa-telegram"></i> Administratsiya</NavLink>
+                        <NavLink to="https://t.me/Belial_04"><i className="fa-brands fa-telegram"></i>
+                            {t("about47")} Telegram
+                        </NavLink>
                         <span>
                             ⏰{t("about21")}
                         </span>

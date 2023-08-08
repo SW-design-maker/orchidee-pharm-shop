@@ -116,18 +116,18 @@ Mijoz manzili: ${category}
                     </div>
                     <div className="right_all">
                         <div className="right_top">
-                            <p style={{ fontSize: "20px" }}>Siz bilan bo'lanish uchun</p>
+                            <p style={{ fontSize: "20px" }}>{t("shop11")}</p>
                             <p>
-                                Ismingiz:
+                                {t("shop12")}
                             </p>
                             <input
                                 value={fio}
                                 onChange={(e) => setFio(e.target.value)}
                                 type="text"
-                                placeholder='Ismingiz'
+                                placeholder={t("shop13")}
                             />
                             <p>
-                                Telefon raqam:
+                                {t("shop14")}
                             </p>
                             <div className="send_number">
                                 <button>+998</button>
@@ -139,14 +139,14 @@ Mijoz manzili: ${category}
                                 />
                             </div>
                             <p>
-                                Viloyatingiz
+                                {t("shop15")}
                             </p>
                             <input
                                 disabled={!phone_number}
                                 value={category}
                                 onChange={(e) => setCategory(e.target.value)}
                                 type="text"
-                                placeholder='Turar joyingiz' />
+                                placeholder={t("shop16")} />
                         </div>
                         <div className="right_bottom">
                             <p>{t("shop5")}</p>
